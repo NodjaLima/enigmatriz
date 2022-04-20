@@ -7,7 +7,7 @@ function faseUm () {
     alert ("Muito bem. A primeira já foi.");
     window.location.href= "./fase2horus.html";
   } else if (respostaUm == 1 || respostaUm == 2) {
-    window.location.href = "./../../gameover.html";
+    window.location.href = "../gameover.html";
   } else {
     alert("Opção Inválida");
     faseUm();
