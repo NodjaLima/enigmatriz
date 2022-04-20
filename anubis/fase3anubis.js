@@ -4,7 +4,7 @@ function faseTres () {
   
   if (respostaTres == 1) {
     alert ("Você foi simplesmente genial. As esfinges não tiveram chance. Annubis está muito grato.");
-    window.location.href= "../../vitoria.html";
+    window.location.href= "../vitoria.html";
   } else if (respostaTres == 3 || respostaTres == 2) {
     window.location.href= "../gameover.html";
   } else {
