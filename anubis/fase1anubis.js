@@ -1,15 +1,22 @@
+function faseUm() {
 
-function faseUm () {
+  while (true) {
 
-var respostaUm = prompt("1 - Flor rara; 2 - A letra M; 3 - O céu azul.");
+    var respostaUm = prompt("1 - Flor rara; 2 - A letra M; 3 - O céu azul.");
 
-if (respostaUm == 2) {
-  alert ("Muito bem. A primeira já foi.");
-  window.location.href= "./fase2anubis.html";
-} else if (respostaUm == 1 || respostaUm == 3) {
-  window.location.href = "../gameover.html";
-} else {
-  alert("Opção Inválida");
-  faseUm();
-}
+    if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
+      if (respostaUm == 2) {
+        alert ("Muito bem. A primeira já foi.");
+        window.location.href= "./fase2anubis.html";
+        break
+      } else {
+        window.location.href = "../gameover.html";
+        break
+      }
+    }
+    else {
+    alert("Opção Inválida");
+    }
+  }
+
 }
