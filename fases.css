@@ -43,3 +43,12 @@ img {
   font-size: 14px;
 }
 
+footer {
+  color: rgb(148, 124, 16);
+  padding: 20px;
+  font-size: 15px;
+  }
+
+  button:hover {
+    transform:scale(1,0.8);
+  }

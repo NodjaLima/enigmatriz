@@ -16,6 +16,7 @@ header {
 .vitoria {
   background-color: rgb(73, 73, 9);
   color: black;
+  text-decoration: none;
 }
 
 img {
@@ -23,3 +24,8 @@ img {
   border-radius: 5px;
 }
 
+footer {
+  background-color: black;
+  color: rgb(148, 124, 16);
+  padding: 20px;
+}
