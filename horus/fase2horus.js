@@ -2,7 +2,7 @@
 
     while (true) {
   
-      var respostaUm = prompt("1 - Oculos; 2 - Luz; 3 - Janela.");
+      var respostaUm = prompt("1 - 31 anos; 2 - 16 anos; 3 - 23 anos.");
   
       if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
         if (respostaUm == 3) {

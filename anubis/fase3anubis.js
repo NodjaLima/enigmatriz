@@ -2,7 +2,7 @@
 
     while (true) {
   
-      var respostaUm = prompt("1 - 9 pessoas; 2 - 7 pessoas; 3 - 11 pessoas.");
+      var respostaUm = prompt("1 - Sombra; 2 - Árvore; 3 - Famílias.");
   
       if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
         if (respostaUm == 1) {

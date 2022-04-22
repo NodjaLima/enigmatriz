@@ -3,7 +3,7 @@
 
     while (true) {
   
-      var respostaUm = prompt("1 - O amor; 2 - Uma herança; 3 - O amanhã.");
+      var respostaUm = prompt("1 - 250 vezes; 2 - 150 vezes; 3 - 200 vezez.");
   
       if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
         if (respostaUm == 3) {

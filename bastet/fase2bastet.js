@@ -2,7 +2,7 @@
 
     while (true) {
   
-      var respostaUm = prompt("1 - Coração; 2 - Fumaça; 3 - Miragem.");
+      var respostaUm = prompt("1 - 48 dias; 2 - 47 dias; 3 - 24 dias.");
   
       if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
         if (respostaUm == 2) {

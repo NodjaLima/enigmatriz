@@ -2,7 +2,7 @@ function faseUm() {
 
   while (true) {
 
-    var respostaUm = prompt("1 - Flor rara; 2 - A letra M; 3 - O céu azul.");
+    var respostaUm = prompt("1 - 16 primos; 2 - 12 primos; 3 - 14 primos.");
 
     if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
       if (respostaUm == 2) {
