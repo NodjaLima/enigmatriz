@@ -22,7 +22,7 @@ div {
   padding: 20px;
   width: 50%;
   text-align: center;
-  border: 5px solid rgb(204, 175, 8);
+  margin-bottom: 5px;
   border-radius: 5px;
   color: rgb(148, 124, 16);
   margin-top: 20px;
@@ -41,15 +41,27 @@ img {
   flex-direction: column;
   align-items: center;
   font-size: 14px;
+  
 }
 
 footer {
   color: rgb(148, 124, 16);
   padding: 20px;
   font-size: 15px;
+  text-align: center;
   }
 
   button:hover {
     transform:scale(1,0.8);
     transition-duration: 700ms;
+    }
+
+    @media (max-width: 700px) {
+      .h1 {
+        text-align: center;
+      }
+      .header {
+        align-items: center;
+        text-align: center;
+      }
     }
