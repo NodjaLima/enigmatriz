@@ -7,7 +7,7 @@
   
       if (respostaUm == 1 || respostaUm == 2 || respostaUm == 3) {
         if (respostaUm == 1) {
-          alert ("Você foi simplesmente genial. As esfinges não tiveram chance. Annubis está muito grato.");
+          alert ("Você foi simplesmente genial. As esfinges não tiveram chance. Bastet está muito grata.");
           window.location.href= "../vitoria.html";
           break
         } else {
